@@ -1,0 +1,113 @@
+:root {
+  --main-color: #1e202b;
+  --secound-color: #009ad8;
+  --third-color: #bfc1c8;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* body {
+  background-color: var(--main-color);
+} */
+
+.navbar {
+  padding: 40px 0;
+  background-color: var(--main-color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 25px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.active {
+  color: var(--secound-color);
+  border: 1px solid var(--secound-color);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+h1 {
+  font-size: 1em;
+}
+small {
+  font-size: 0.5em;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+.navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+  color: #1e202b;
+  background-color: #fff;
+}
+
+main {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.form-control {
+  background-color: var(--main-color);
+  border: none;
+  padding: 20px 50px 20px 20px;
+  border-radius: 30px;
+}
+
+.form-control:focus {
+  box-shadow: var(--main-color) 0px 0px 0px 0.25rem;
+}
+
+.btn {
+  background-color: var(--secound-color);
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+
+.card {
+  background-color: #323544;
+  color: var(--third-color);
+}
+
+.degree {
+  font-size: 5.5em;
+  color: #fff;
+  font-weight: 600;
+}
+
+.degree-img {
+  width: 100px;
+}
+
+.special {
+  color: var(--secound-color);
+  margin: 25px 0;
+}
+
+.degree-small {
+  font-size: 1.7142857143em;
+  color: #fff;
+}
+
+.card-body small {
+  font-size: 1.1428571429em;
+  color: #fff;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
